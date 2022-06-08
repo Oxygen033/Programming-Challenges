@@ -17,7 +17,6 @@ namespace ConsoleApp1
             char[] Digits = "0123456789".ToCharArray();
             char[] Symbols = "!@#$%&*".ToCharArray();
             List<char[]> Arrays = new List<char[]>() { Letters, Digits, Symbols };
-            char[] SeedTime = DateTime.Now.ToString("HH:mm:ss").Replace(":", "").ToCharArray();
             while (true)
             {
                 try
